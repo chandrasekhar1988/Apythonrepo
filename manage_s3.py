@@ -1,7 +1,7 @@
 import boto3
 
 s3 = boto3.resource('s3', region_name='us-east-1')
-bucket_name = "devops-chandra-bucketA-2026"
+bucket_name = "devops-chandra-bucketa-2026"
 
 try:
     # us-east-1 కోసం CreateBucketConfiguration అవసరం లేదు
