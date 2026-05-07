@@ -25,7 +25,7 @@ server:
   environment: production
 """
 parsed_yaml = yaml.safe_load(yaml_data)
-print(f"YAML లోని App Name: {parsed_yaml['server']['app_name']}")
+print(f"In YAML,App Name: {parsed_yaml['server']['app_name']}")
 
 
 
