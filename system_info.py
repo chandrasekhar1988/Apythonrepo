@@ -18,3 +18,8 @@ if len(sys.argv) > 1:
     print(f"Hello {user_name}, the argument you passed is working!")
 else:
     print("Please provide your name as an argument (e.g., python3 system_info.py Chandra)")
+
+
+
+
+    
