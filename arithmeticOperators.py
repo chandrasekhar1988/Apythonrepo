@@ -1,8 +1,6 @@
 #పైథాన్‌లో ముఖ్యమైన 7 Arithmetic Operators ఉన్నాయి
-
 a = 15
 b = 4
-
 # కూడిక (Addition)
 print("Addition (+):", a + b)
 
