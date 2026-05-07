@@ -8,3 +8,9 @@ retry = 0
 while retry < 3:
     print("Attempting to connect to server...")
     retry += 1
+
+
+
+
+
+    

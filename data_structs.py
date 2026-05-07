@@ -19,3 +19,6 @@ print("Dictionary (serverdetailshere):", server_details)
 # డేటా ఏ క్రమంలో ఉన్నా పర్వాలేదు అనుకున్నప్పుడు 'Set' వాడాలి.
 ports = {80, 443, 80, 22} # 80 రెండుసార్లు ఉన్నా, అది ఒక్కసారే చూపిస్తుంది
 print("Set (removesduplicates-openports):", ports)
+
+
+

@@ -1,5 +1,4 @@
 import subprocess
-
 def restart_nginx():
     """
     Restarts the Nginx service using systemctl.
@@ -24,3 +23,4 @@ def greet(name):
     print("Hello", name)
 
 greet("Python")
+
