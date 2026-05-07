@@ -16,8 +16,9 @@ print(prod_only) # Output: ['prod-web', 'prod-api']
 
 # DevOps లో కొన్నిసార్లు మనం పేర్లను ఒకే ఫార్మాట్లోకి Capital Letters మార్చాల్సి ఉంటుంది
 servers = ["web", "db", "app"]
-
 # అన్నీ Uppercase లోకి మార్చు
 upper_servers = [s.upper() for s in servers]
-
 print(upper_servers) # Output: ['WEB', 'DB', 'APP']
+
+
+

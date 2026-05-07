@@ -20,3 +20,6 @@ print("2. Map (Doubled numbers):", doubled_numbers)
 total_sum = reduce(lambda x, y: x + y, numbers)
 print("3. Reduce (Total sum):", total_sum) 
 # అవుట్‌పుట్: 15 (అంటే 1+2+3+4+5)
+
+
+

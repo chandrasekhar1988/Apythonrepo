@@ -11,3 +11,7 @@ print(f"Normal Function Result: {result1}")
 # Calling the lambda function
 result2 = lambda_add(7, 8)
 print(f"Lambda Function Result: {result2}")
+
+
+
+
