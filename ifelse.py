@@ -8,6 +8,6 @@ else:
 #filename = "nginx.conf"
 
 #if os.path.exists(filename):
-#    print("ఫైల్ ఉంది, ప్రాసెస్ చేస్తున్నాను...")
+#    print("File exists,processingఫైల్ ఉంది, ప్రాసెస్ చేస్తున్నాను...")
 #else:
-#    print("ఫైల్ లేదు, క్రియేట్ చేయాలి!")
+#    print("No file exists,need to createఫైల్ లేదు, క్రియేట్ చేయాలి!")

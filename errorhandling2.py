@@ -2,19 +2,19 @@ def safe_divide(a, b):
     try:
         # మనం చేయాలనుకున్న పని
         result = a / b
-        print(f"ఫలితం: {result}")
+        print(f"Results: {result}")
     
     except ZeroDivisionError:
         # సున్నా తో భాగిస్తే వచ్చే ఎర్రర్ ని పట్టుకోవడం
-        print("ఎర్రర్: సున్నా (0) తో భాగించలేము!")
+        print("Error: Cannot divide by zero (0)!")
         
     except TypeError:
         # నంబర్ కాకుండా టెక్స్ట్ ఇస్తే వచ్చే ఎర్రర్
-        print("ఎర్రర్: దయచేసి నంబర్లు మాత్రమే ఇవ్వండి!")
+        print("Error: Please provide numbers only!")
         
     finally:
         # ఇది ఎర్రర్ వచ్చినా, రాకపోయినా రన్ అవుతుంది
-        print("పని పూర్తయ్యింది.\n")
+        print("Task completed.\n\n")
 
 # ప్రోగ్రామ్ రన్ చేసి చూడండి:
 safe_divide(10, 2)  # ఇది సరిగ్గా పనిచేస్తుంది
