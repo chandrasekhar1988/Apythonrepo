@@ -13,7 +13,8 @@ print("Multiplication (*):", a * b)
 # భాగహారం (Division)
 print("Division (/):", a / b)
 
-# ఫ్లోర్ భాగహారం (Floor Division) - ఇది పాయింట్లు తీసేసి కేవలం పూర్ణాంకాన్ని ఇస్తుంది
+# ఫ్లోర్ భాగహారం (Floor Division) - ఇది పాయింట్లు తీసేసి
+#  కేవలం పూర్ణాంకాన్ని ఇస్తుంది
 print("Floor Division (//):", a // b)
 
 # శేషం (Modulus) - భాగహారం చేసినప్పుడు మిగిలే శేషం
@@ -21,3 +22,5 @@ print("Modulus (%):", a % b)
 
 # ఘాతం (Exponent) - a power b
 print("Exponent (**):", a ** b)
+
+
