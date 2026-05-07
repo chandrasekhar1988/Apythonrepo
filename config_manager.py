@@ -12,6 +12,10 @@ with open("config.json", "w") as f:
     json.dump(data, f, indent=4)
 print("JSON file has been created.")
 
+# పైథాన్ డిక్షనరీని JSON స్ట్రింగ్‌గా మార్చడం (Serialization)
+data = {"name": "Chandra", "role": "DevOps"}
+json_string = json.dumps(data) 
+print(json_string) # రిజల్ట్: {"name": "Chandra", "role": "DevOps"}
 
 # 2. YAML ఫైల్ చదవడం (Real-time లో Kubernetes/Ansible కి ఇది చాలా ముఖ్యం)
 yaml_data = """
