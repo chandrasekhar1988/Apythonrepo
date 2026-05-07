@@ -18,7 +18,7 @@ def create_centos_server():
             # KeyName is removed to proceed without a keypair
             SecurityGroupIds=['sg-0436d2d64293a78c1'],
             # If you want to specify the VPC, you must provide a Subnet ID within that VPC
-            # SubnetId='subnet-xxxxxxx', 
+            SubnetId='subnet-0cded6dba9b7f4394', 
             TagSpecifications=[
                 {
                     'ResourceType': 'instance',
