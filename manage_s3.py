@@ -1,14 +1,12 @@
 import boto3
 
-# S3 రిసోర్స్‌ను క్రియేట్ చేయడం
-s3 = boto3.resource('s3')
+s3 = boto3.resource('s3', region_name='us-east-1')
+bucket_name = "devops-chandra-bucket-2026"
 
-# 1. కొత్త బకెట్ క్రియేట్ చేయడం
-bucket_name = "devops-chandra-bucket-2026" # పేరు యూనిక్‌గా ఉండాలి
 try:
-    s3.create_bucket(Bucket=bucket_name, 
-                     CreateBucketConfiguration={'LocationConstraint': 'us-east-1'})
-    print(f"బకెట్ '{bucket_name}' విజయవంతంగా క్రియేట్ చేయబడింది.")
+    # us-east-1 కోసం CreateBucketConfiguration అవసరం లేదు
+    s3.create_bucket(Bucket=bucket_name)
+    print(f"బకెట్ '{bucket_name}' క్రియేట్ చేయబడింది.")
 except Exception as e:
     print(f"Error: {e}")
 
