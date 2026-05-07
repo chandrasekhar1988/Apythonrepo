@@ -1,0 +1,13 @@
+cpu_usage = 95
+if cpu_usage > 90:
+    print("Alert: CPU is too high!")
+else:
+    print("System is healthy.")
+
+#import os
+#filename = "nginx.conf"
+
+#if os.path.exists(filename):
+#    print("ఫైల్ ఉంది, ప్రాసెస్ చేస్తున్నాను...")
+#else:
+#    print("ఫైల్ లేదు, క్రియేట్ చేయాలి!")
